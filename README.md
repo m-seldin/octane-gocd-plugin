@@ -1,15 +1,16 @@
-# HPE ALM Octane GoCD plugin ![Build State on Travis-CI](https://travis-ci.org/Haufe-Lexware/octane-gocd-plugin.svg?branch=master)
-This plugin integrates GoCD with HPE ALM Octane. Making GoCD pipelines accessible in HPE ALM Octane and allowing to
+# MicroFocus ALM Octane GoCD plugin 
+This plugin integrates GoCD with MicroFocus ALM Octane. Making GoCD pipelines accessible in MicroFocus ALM Octane and allowing to
 analyze build quality and test results.
 
 ## Requirements
+
 This plugin requires GoCD to run in version 17.9 or higher.
 
 ## How to install
 This plugin has to be installed on your GoCD-server. Take the following steps:
 1. Download the jar-file of this plugin and store it on your go-server in `<go-server-directory>/plugins/external/`.
 2. Restart your GoCD-server.
-3. You now need to configure the plugin to tell against which HPE ALM Octane server it should connect:
+3. You now need to configure the plugin to tell against which MicroFocus ALM Octane server it should connect:
     1. In GoCD open `Admin` and `Plugins`: you should see the *OctaneGoCDPlugin*. Click the cogwheel in front of it.
     2. Set the *Server URL* of your Octane server. This URL is supposed to look like
        `http://hostname:port/ui/?p=<SharedSpaceID>`.

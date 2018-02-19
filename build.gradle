@@ -1,4 +1,4 @@
-description = 'GoCD Plugin for connecting with HPE ALM Octane'
+description = 'GoCD Plugin for connecting with MicroFocus ALM Octane'
 
 apply plugin: 'base' // provides cleaning task
 apply plugin: 'java'
