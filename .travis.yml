@@ -14,4 +14,4 @@ cache:
   - $HOME/.gradle
   
 script:
-  - ./gradlew build
+  - ./gradle build
