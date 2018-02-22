@@ -6,10 +6,10 @@ build:
   verbosity: detailed
 
 build_script:
-  - gradle assemble --info --no-daemon
+  - gradle assemble
 
 test_script:
-  - gradle check --info --no-daemon
+  - gradle check
 
 branches:
   only:
