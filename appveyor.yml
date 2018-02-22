@@ -24,3 +24,8 @@ environment:
  
 matrix:
   fast_finish: true
+
+artifacts:
+- path: ./build/libs
+  name: octane-gocd-plugin.$(appveyor_build_version).jar
+  type: zip
